@@ -51,4 +51,14 @@ UUID=9951f0f5-2f18-4fe8-8dcc-36581adb9737       /var/log        btrfs           
 #UUID=318b57cd-a164-467b-9e09-b9eb2a532979      /boot           ext4            rw,relatime     0 2
 
 #UUID=413f356f-9725-447f-aecc-9b4a85fd7340 /home/sevenup/data auto defaults,x-parent=fb0faa9d-e0e8-4131-8d06-afeca5686b19 0 0
-                                                                                                               
+
+
+# /dev/mapper/luks-fb0faa9d-e0e8-4131-8d06-afeca5686b19
+UUID=fb0faa9d-e0e8-4131-8d06-afeca5686b19   /home/sevenup/data/cloudsync  rw,noatime,compress=zstd:3,ssd,space_cache,commit=120,subvol=cloudsync       0 0
+UUID=fb0faa9d-e0e8-4131-8d06-afeca5686b19   /var/lib/docker  rw,noatime,compress=zstd:3,ssd,space_cache,commit=120,subvol=@docker      0 0
+UUID=fb0faa9d-e0e8-4131-8d06-afeca5686b19   /yacht  rw,noatime,compress=zstd:3,ssd,space_cache,commit=120,subvol=@yacht      0 0
+
+UUID=fb0faa9d-e0e8-4131-8d06-afeca5686b19   /home/sevenup/data/sabnzbd  rw,noatime,compress=zstd:3,ssd,space_cache,commit=120,subvol=sabnzbd       0 0
+UUID=fb0faa9d-e0e8-4131-8d06-afeca5686b19   /home/sevenup/data/VSCode  rw,noatime,compress=zstd:3,ssd,space_cache,commit=120,subvol=VSCode      0 0
+UUID=fb0faa9d-e0e8-4131-8d06-afeca5686b19   /home/sevenup/data/VSCode/git  rw,noatime,compress=zstd:3,ssd,space_cache,commit=120,subvol=VSCode/git       0 0
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        

@@ -24,3 +24,7 @@
 # <mapper-name>   <block-device>       <password/keyfile>   <crypto-options>
 #  root           UUID={{UUID_ROOT}}       none                luks
 #  swap           UUID={{UUID_SWAP}}       none                luks
+luks-fb0faa9d-e0e8-4131-8d06-afeca5686b19 UUID=fb0faa9d-e0e8-4131-8d06-afeca5686b19 /etc/luks-keys/luks-fb0faa9d-e0e8-4131-8d06-afeca5686b19 luks 
+luks-317c2af4-f3de-46e5-9a52-03ce47fff6bf UUID=317c2af4-f3de-46e5-9a52-03ce47fff6bf /etc/luks-keys/luks-317c2af4-f3de-46e5-9a52-03ce47fff6bf luks 
+luks-bd4c411a-361e-40cd-bfb6-1c0525ebe673 UUID=bd4c411a-361e-40cd-bfb6-1c0525ebe673 /etc/luks-keys/luks-bd4c411a-361e-40cd-bfb6-1c0525ebe673 luks
+cryptroot UUID=1502b732-1a30-41eb-b3c5-d5ba4c7bd6b1 none luks
