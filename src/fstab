@@ -24,3 +24,31 @@
 #  <block-device>       <mount-point>    <fs-type>    <mount-options>                   <dump>  <fsck>
 #  /dev/mapper/root      /sysroot         auto         x-systemd.device-timeout=9999h     0       1
 #  /dev/mapper/swap      none             swap         x-systemd.device-timeout=9999h     0       0
+ /dev/mapper/cryptroot
+UUID=9951f0f5-2f18-4fe8-8dcc-36581adb9737       /               btrfs           rw,noatime,compress=zstd:3,ssd,space_cache,commit=120,subvol=@  0 0
+
+# /dev/nvme0n1p1 LABEL=EFI
+UUID=9277-CCC2          /boot           vfat            rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro   0 2
+
+# /dev/mapper/cryptroot
+UUID=9951f0f5-2f18-4fe8-8dcc-36581adb9737       /home           btrfs           rw,noatime,compress=zstd:3,ssd,space_cache,commit=120,subvol=@home      0 0
+
+# /dev/mapper/cryptroot
+UUID=9951f0f5-2f18-4fe8-8dcc-36581adb9737       /cache          btrfs           rw,noatime,compress=zstd:3,ssd,space_cache,commit=120,subvol=@cache     0 0
+
+# /dev/mapper/cryptroot
+UUID=9951f0f5-2f18-4fe8-8dcc-36581adb9737       /var/log        btrfs           rw,noatime,compress=zstd:3,ssd,space_cache,commit=120,subvol=@log       0 0
+
+# /dev/mapper/cryptroot
+#UUID=9951f0f5-2f18-4fe8-8dcc-36581adb9737      /opt            btrfs           rw,noatime,compress=zstd:3,ssd,space_cache,commit=120,subvol=@opt       0 0
+
+# /dev/mapper/cryptroot
+#UUID=9951f0f5-2f18-4fe8-8dcc-36581adb9737       /.snapshots           btrfs           rw,noatime,compress=zstd:3,ssd,space_cache,commit=120,subvol=@snapshots       0 0
+# /dev/mapper/cryptroot
+#UUID=9951f0f5-2f18-4fe8-8dcc-36581adb9737      /var/lib/snapd          btrfs           rw,noatime,compress=zstd:3,ssd,space_cache,commit=120,subvol=@snapd     0 0
+
+# /dev/nvme0n1p3 LABEL=bootloader
+#UUID=318b57cd-a164-467b-9e09-b9eb2a532979      /boot           ext4            rw,relatime     0 2
+
+#UUID=413f356f-9725-447f-aecc-9b4a85fd7340 /home/sevenup/data auto defaults,x-parent=fb0faa9d-e0e8-4131-8d06-afeca5686b19 0 0
+                                                                                                               
