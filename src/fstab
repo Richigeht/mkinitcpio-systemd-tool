@@ -54,11 +54,11 @@ UUID=9951f0f5-2f18-4fe8-8dcc-36581adb9737       /var/log        btrfs           
 
 
 # /dev/mapper/luks-fb0faa9d-e0e8-4131-8d06-afeca5686b19
-UUID=fb0faa9d-e0e8-4131-8d06-afeca5686b19   /home/sevenup/data/cloudsync  rw,noatime,compress=zstd:3,ssd,space_cache,commit=120,subvol=cloudsync       0 0
-UUID=fb0faa9d-e0e8-4131-8d06-afeca5686b19   /var/lib/docker  rw,noatime,compress=zstd:3,ssd,space_cache,commit=120,subvol=@docker      0 0
-UUID=fb0faa9d-e0e8-4131-8d06-afeca5686b19   /yacht  rw,noatime,compress=zstd:3,ssd,space_cache,commit=120,subvol=@yacht      0 0
-
-UUID=fb0faa9d-e0e8-4131-8d06-afeca5686b19   /home/sevenup/data/sabnzbd  rw,noatime,compress=zstd:3,ssd,space_cache,commit=120,subvol=sabnzbd       0 0
-UUID=fb0faa9d-e0e8-4131-8d06-afeca5686b19   /home/sevenup/data/VSCode  rw,noatime,compress=zstd:3,ssd,space_cache,commit=120,subvol=VSCode      0 0
-UUID=fb0faa9d-e0e8-4131-8d06-afeca5686b19   /home/sevenup/data/VSCode/git  rw,noatime,compress=zstd:3,ssd,space_cache,commit=120,subvol=VSCode/git       0 0
+UUID=fb0faa9d-e0e8-4131-8d06-afeca5686b19   /home/sevenup/data/cloudsync  rw,noatime,compress=zstd:3,space_cache,commit=120,subvol=cloudsync       0 0
+UUID=fb0faa9d-e0e8-4131-8d06-afeca5686b19   /var/lib/docker  rw,noatime,compress=zstd:3,space_cache,commit=120,subvol=@docker      0 0
+UUID=fb0faa9d-e0e8-4131-8d06-afeca5686b19   /yacht  rw,noatime,compress=zstd:3,space_cache,commit=120,subvol=@yacht      0 0
+UUID=fb0faa9d-e0e8-4131-8d06-afeca5686b19   /var/lib/libvirt  rw,noatime,compress=zstd:3,space_cache,commit=120,subvol=vms      0 0
+UUID=fb0faa9d-e0e8-4131-8d06-afeca5686b19   /home/sevenup/data/sabnzbd  rw,noatime,compress=zstd:3,space_cache,commit=120,subvol=sabnzbd       0 0
+UUID=fb0faa9d-e0e8-4131-8d06-afeca5686b19   /home/sevenup/data/VSCode  rw,noatime,compress=zstd:3,space_cache,commit=120,subvol=VSCode      0 0
+UUID=fb0faa9d-e0e8-4131-8d06-afeca5686b19   /home/sevenup/data/VSCode/git  rw,noatime,compress=zstd:3,space_cache,commit=120,subvol=VSCode/git       0 0
                                                                                                                                                                                                                                                                                                                                                                                                                                                         

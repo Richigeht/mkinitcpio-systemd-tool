@@ -1,0 +1,826 @@
+==> Starting dry run: 5.12.9-1-MANJARO
+  -> Running build hook: [/usr/lib/initcpio/install/base]
+    adding file: /bin/busybox
+    adding file: /usr/lib/libcrypt.so.2
+    adding file: /usr/lib/libc.so.6
+    adding file: /usr/lib64/ld-linux-x86-64.so.2
+    adding symlink: /usr/bin/[ -> busybox
+    adding symlink: /usr/bin/arch -> busybox
+    adding symlink: /usr/bin/ash -> busybox
+    adding symlink: /usr/bin/awk -> busybox
+    adding symlink: /usr/bin/base64 -> busybox
+    adding symlink: /usr/bin/basename -> busybox
+    adding symlink: /usr/bin/bc -> busybox
+    adding symlink: /usr/bin/blkdiscard -> busybox
+    adding symlink: /usr/bin/bzip2 -> busybox
+    adding symlink: /usr/bin/cat -> busybox
+    adding symlink: /usr/bin/chgrp -> busybox
+    adding symlink: /usr/bin/chmod -> busybox
+    adding symlink: /usr/bin/chown -> busybox
+    adding symlink: /usr/bin/chroot -> busybox
+    adding symlink: /usr/bin/clear -> busybox
+    adding symlink: /usr/bin/cp -> busybox
+    adding symlink: /usr/bin/cpio -> busybox
+    adding symlink: /usr/bin/cttyhack -> busybox
+    adding symlink: /usr/bin/cut -> busybox
+    adding symlink: /usr/bin/dd -> busybox
+    adding symlink: /usr/bin/df -> busybox
+    adding symlink: /usr/bin/dirname -> busybox
+    adding symlink: /usr/bin/dmesg -> busybox
+    adding symlink: /usr/bin/du -> busybox
+    adding symlink: /usr/bin/echo -> busybox
+    adding symlink: /usr/bin/env -> busybox
+    adding symlink: /usr/bin/expr -> busybox
+    adding symlink: /usr/bin/fallocate -> busybox
+    adding symlink: /usr/bin/false -> busybox
+    adding symlink: /usr/bin/fatattr -> busybox
+    adding symlink: /usr/bin/free -> busybox
+    adding symlink: /usr/bin/fsfreeze -> busybox
+    adding symlink: /usr/bin/fstrim -> busybox
+    adding symlink: /usr/bin/fsync -> busybox
+    adding symlink: /usr/bin/getopt -> busybox
+    adding symlink: /usr/bin/grep -> busybox
+    adding symlink: /usr/bin/gzip -> busybox
+    adding symlink: /usr/bin/halt -> busybox
+    adding symlink: /usr/bin/head -> busybox
+    adding symlink: /usr/bin/hexdump -> busybox
+    adding symlink: /usr/bin/hexedit -> busybox
+    adding symlink: /usr/bin/i2ctransfer -> busybox
+    adding symlink: /usr/bin/ifconfig -> busybox
+    adding symlink: /usr/bin/init -> busybox
+    adding symlink: /usr/bin/install -> busybox
+    adding symlink: /usr/bin/ip -> busybox
+    adding symlink: /usr/bin/ipaddr -> busybox
+    adding symlink: /usr/bin/iplink -> busybox
+    adding symlink: /usr/bin/ipneigh -> busybox
+    adding symlink: /usr/bin/iproute -> busybox
+    adding symlink: /usr/bin/iprule -> busybox
+    adding symlink: /usr/bin/iptunnel -> busybox
+    adding symlink: /usr/bin/kbd_mode -> busybox
+    adding symlink: /usr/bin/kill -> busybox
+    adding symlink: /usr/bin/killall -> busybox
+    adding symlink: /usr/bin/less -> busybox
+    adding symlink: /usr/bin/link -> busybox
+    adding symlink: /usr/bin/ln -> busybox
+    adding symlink: /usr/bin/loadfont -> busybox
+    adding symlink: /usr/bin/loadkmap -> busybox
+    adding symlink: /usr/bin/losetup -> busybox
+    adding symlink: /usr/bin/ls -> busybox
+    adding symlink: /usr/bin/lsscsi -> busybox
+    adding symlink: /usr/bin/lzop -> busybox
+    adding symlink: /usr/bin/md5sum -> busybox
+    adding symlink: /usr/bin/mim -> busybox
+    adding symlink: /usr/bin/mkdir -> busybox
+    adding symlink: /usr/bin/mkfifo -> busybox
+    adding symlink: /usr/bin/mknod -> busybox
+    adding symlink: /usr/bin/mkpasswd -> busybox
+    adding symlink: /usr/bin/mktemp -> busybox
+    adding symlink: /usr/bin/mountpoint -> busybox
+    adding symlink: /usr/bin/mv -> busybox
+    adding symlink: /usr/bin/nc -> busybox
+    adding symlink: /usr/bin/netstat -> busybox
+    adding symlink: /usr/bin/nologin -> busybox
+    adding symlink: /usr/bin/nproc -> busybox
+    adding symlink: /usr/bin/nsenter -> busybox
+    adding symlink: /usr/bin/nslookup -> busybox
+    adding symlink: /usr/bin/nuke -> busybox
+    adding symlink: /usr/bin/openvt -> busybox
+    adding symlink: /usr/bin/partprobe -> busybox
+    adding symlink: /usr/bin/paste -> busybox
+    adding symlink: /usr/bin/pgrep -> busybox
+    adding symlink: /usr/bin/pidof -> busybox
+    adding symlink: /usr/bin/ping -> busybox
+    adding symlink: /usr/bin/ping6 -> busybox
+    adding symlink: /usr/bin/poweroff -> busybox
+    adding symlink: /usr/bin/printf -> busybox
+    adding symlink: /usr/bin/ps -> busybox
+    adding symlink: /usr/bin/pwd -> busybox
+    adding symlink: /usr/bin/readlink -> busybox
+    adding symlink: /usr/bin/realpath -> busybox
+    adding symlink: /usr/bin/reboot -> busybox
+    adding symlink: /usr/bin/resume -> busybox
+    adding symlink: /usr/bin/rm -> busybox
+    adding symlink: /usr/bin/rmdir -> busybox
+    adding symlink: /usr/bin/route -> busybox
+    adding symlink: /usr/bin/run-init -> busybox
+    adding symlink: /usr/bin/sed -> busybox
+    adding symlink: /usr/bin/seq -> busybox
+    adding symlink: /usr/bin/setfattr -> busybox
+    adding symlink: /usr/bin/setfont -> busybox
+    adding symlink: /usr/bin/sh -> busybox
+    adding symlink: /usr/bin/sha1sum -> busybox
+    adding symlink: /usr/bin/sha256sum -> busybox
+    adding symlink: /usr/bin/sha512sum -> busybox
+    adding symlink: /usr/bin/shuf -> busybox
+    adding symlink: /usr/bin/sleep -> busybox
+    adding symlink: /usr/bin/sort -> busybox
+    adding symlink: /usr/bin/stat -> busybox
+    adding symlink: /usr/bin/strings -> busybox
+    adding symlink: /usr/bin/sync -> busybox
+    adding symlink: /usr/bin/tac -> busybox
+    adding symlink: /usr/bin/tail -> busybox
+    adding symlink: /usr/bin/tar -> busybox
+    adding symlink: /usr/bin/tcpsvd -> busybox
+    adding symlink: /usr/bin/tee -> busybox
+    adding symlink: /usr/bin/telnet -> busybox
+    adding symlink: /usr/bin/test -> busybox
+    adding symlink: /usr/bin/tftp -> busybox
+    adding symlink: /usr/bin/touch -> busybox
+    adding symlink: /usr/bin/true -> busybox
+    adding symlink: /usr/bin/truncate -> busybox
+    adding symlink: /usr/bin/ts -> busybox
+    adding symlink: /usr/bin/udhcpc -> busybox
+    adding symlink: /usr/bin/udhcpc6 -> busybox
+    adding symlink: /usr/bin/umount -> busybox
+    adding symlink: /usr/bin/uname -> busybox
+    adding symlink: /usr/bin/uniq -> busybox
+    adding symlink: /usr/bin/unlink -> busybox
+    adding symlink: /usr/bin/unshare -> busybox
+    adding symlink: /usr/bin/unzip -> busybox
+    adding symlink: /usr/bin/uptime -> busybox
+    adding symlink: /usr/bin/vi -> busybox
+    adding symlink: /usr/bin/wc -> busybox
+    adding symlink: /usr/bin/wget -> busybox
+    adding symlink: /usr/bin/which -> busybox
+    adding symlink: /usr/bin/xxd -> busybox
+    adding symlink: /usr/bin/xz -> busybox
+    adding symlink: /usr/bin/yes -> busybox
+    adding file: /usr/sbin/kmod
+    adding file: /usr/lib/libzstd.so.1
+    adding file: /usr/lib/liblzma.so.5
+    adding file: /usr/lib/libz.so.1
+    adding file: /usr/lib/libcrypto.so.1.1
+    adding file: /usr/lib/libpthread.so.0
+    adding file: /usr/lib/libdl.so.2
+    adding symlink: /usr/bin/depmod -> kmod
+    adding symlink: /usr/bin/insmod -> kmod
+    adding symlink: /usr/bin/rmmod -> kmod
+    adding symlink: /usr/bin/lsmod -> kmod
+    adding symlink: /usr/bin/modprobe -> kmod
+    adding symlink: /usr/bin/modinfo -> kmod
+    adding file: /usr/sbin/blkid
+    adding file: /usr/lib/libblkid.so.1
+    adding file: /usr/sbin/mount
+    adding file: /usr/lib/libmount.so.1
+    adding file: /usr/lib/librt.so.1
+    adding file: /usr/sbin/switch_root
+    adding file: /init_functions
+    adding file: /init
+  -> Running build hook: [/usr/lib/initcpio/install/keyboard]
+    adding module: bcma-hcd (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/usb/host/bcma-hcd.ko.xz)
+    adding module: bcma (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/bcma/bcma.ko.xz)
+    adding module: ehci-fsl (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/usb/host/ehci-fsl.ko.xz)
+    adding module: ehci-platform (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/usb/host/ehci-platform.ko.xz)
+    adding module: fotg210-hcd (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/usb/host/fotg210-hcd.ko.xz)
+    adding module: fsl-mph-dr-of (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/usb/host/fsl-mph-dr-of.ko.xz)
+    adding module: isp116x-hcd (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/usb/host/isp116x-hcd.ko.xz)
+    adding module: max3421-hcd (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/usb/host/max3421-hcd.ko.xz)
+    adding module: ohci-platform (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/usb/host/ohci-platform.ko.xz)
+    adding module: oxu210hp-hcd (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/usb/host/oxu210hp-hcd.ko.xz)
+    adding module: r8a66597-hcd (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/usb/host/r8a66597-hcd.ko.xz)
+    adding module: sl811-hcd (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/usb/host/sl811-hcd.ko.xz)
+    adding module: ssb-hcd (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/usb/host/ssb-hcd.ko.xz)
+    adding module: ssb (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/ssb/ssb.ko.xz)
+    adding module: mmc_core (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/mmc/core/mmc_core.ko.xz)
+    adding module: pcmcia (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/pcmcia/pcmcia.ko.xz)
+    adding module: pcmcia_core (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/pcmcia/pcmcia_core.ko.xz)
+    adding module: u132-hcd (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/usb/host/u132-hcd.ko.xz)
+    adding module: ftdi-elan (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/usb/misc/ftdi-elan.ko.xz)
+    adding module: xhci-pci (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/usb/host/xhci-pci.ko.xz)
+    adding module: xhci-pci-renesas (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/usb/host/xhci-pci-renesas.ko.xz)
+    adding module: xhci-plat-hcd (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/usb/host/xhci-plat-hcd.ko.xz)
+    adding module: hid-a4tech (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-a4tech.ko.xz)
+    adding module: hid-accutouch (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-accutouch.ko.xz)
+    adding module: hid-alps (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-alps.ko.xz)
+    adding module: hid-appleir (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-appleir.ko.xz)
+    adding module: hid-apple (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-apple.ko.xz)
+    adding module: hid-asus (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-asus.ko.xz)
+    adding module: asus-wmi (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/platform/x86/asus-wmi.ko.xz)
+    adding module: video (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/acpi/video.ko.xz)
+    adding module: wmi (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/platform/x86/wmi.ko.xz)
+    adding module: sparse-keymap (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/sparse-keymap.ko.xz)
+    adding module: rfkill (/lib/modules/5.12.9-1-MANJARO/kernel/net/rfkill/rfkill.ko.xz)
+    adding module: usbhid (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/usbhid/usbhid.ko.xz)
+    adding module: hid-aureal (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-aureal.ko.xz)
+    adding module: hid-axff (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-axff.ko.xz)
+    adding module: ff-memless (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/ff-memless.ko.xz)
+    adding module: hid-belkin (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-belkin.ko.xz)
+    adding module: hid-betopff (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-betopff.ko.xz)
+    adding module: hid-bigbenff (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-bigbenff.ko.xz)
+    adding module: hid-cherry (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-cherry.ko.xz)
+    adding module: hid-chicony (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-chicony.ko.xz)
+    adding module: hid-cmedia (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-cmedia.ko.xz)
+    adding module: hid-corsair (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-corsair.ko.xz)
+    adding module: hid-cougar (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-cougar.ko.xz)
+    adding module: hid-cp2112 (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-cp2112.ko.xz)
+    adding module: hid-creative-sb0540 (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-creative-sb0540.ko.xz)
+    adding module: hid-cypress (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-cypress.ko.xz)
+    adding module: hid-dr (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-dr.ko.xz)
+    adding module: hid-elan (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-elan.ko.xz)
+    adding module: hid-elecom (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-elecom.ko.xz)
+    adding module: hid-elo (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-elo.ko.xz)
+    adding module: hid-emsff (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-emsff.ko.xz)
+    adding module: hid-ezkey (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-ezkey.ko.xz)
+    adding module: hid-gaff (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-gaff.ko.xz)
+    adding module: hid-gembird (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-gembird.ko.xz)
+    adding module: hid-gfrm (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-gfrm.ko.xz)
+    adding module: hid-glorious (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-glorious.ko.xz)
+    adding module: hid-google-hammer (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-google-hammer.ko.xz)
+    adding module: hid-gt683r (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-gt683r.ko.xz)
+    adding module: hid-gyration (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-gyration.ko.xz)
+    adding module: hid-holtekff (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-holtekff.ko.xz)
+    adding module: hid-holtek-kbd (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-holtek-kbd.ko.xz)
+    adding module: hid-holtek-mouse (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-holtek-mouse.ko.xz)
+    adding module: hid-hyperv (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-hyperv.ko.xz)
+    adding module: hv_vmbus (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hv/hv_vmbus.ko.xz)
+    adding module: hid-icade (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-icade.ko.xz)
+    adding module: hid-ite (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-ite.ko.xz)
+    adding module: hid-jabra (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-jabra.ko.xz)
+    adding module: hid-kensington (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-kensington.ko.xz)
+    adding module: hid-keytouch (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-keytouch.ko.xz)
+    adding module: hid-kye (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-kye.ko.xz)
+    adding module: hid-lcpower (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-lcpower.ko.xz)
+    adding module: hid-led (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-led.ko.xz)
+    adding module: hid-lenovo (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-lenovo.ko.xz)
+    adding module: hid-lg-g15 (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-lg-g15.ko.xz)
+    adding module: hid-logitech-dj (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-logitech-dj.ko.xz)
+    adding module: hid-logitech-hidpp (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-logitech-hidpp.ko.xz)
+    adding module: hid-logitech (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-logitech.ko.xz)
+    adding module: hid-macally (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-macally.ko.xz)
+    adding module: hid-magicmouse (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-magicmouse.ko.xz)
+    adding module: hid-maltron (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-maltron.ko.xz)
+    adding module: hid-mcp2221 (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-mcp2221.ko.xz)
+    adding module: hid-mf (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-mf.ko.xz)
+    adding module: hid-microsoft (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-microsoft.ko.xz)
+    adding module: hid-monterey (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-monterey.ko.xz)
+    adding module: hid-multitouch (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-multitouch.ko.xz)
+    adding module: hid-nti (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-nti.ko.xz)
+    adding module: hid-ntrig (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-ntrig.ko.xz)
+    adding module: hid-ortek (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-ortek.ko.xz)
+    adding module: hid-penmount (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-penmount.ko.xz)
+    adding module: hid-petalynx (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-petalynx.ko.xz)
+    adding module: hid-picolcd (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-picolcd.ko.xz)
+    adding module: fb_sys_fops (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/video/fbdev/core/fb_sys_fops.ko.xz)
+    adding module: syscopyarea (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/video/fbdev/core/syscopyarea.ko.xz)
+    adding module: lcd (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/video/backlight/lcd.ko.xz)
+    adding module: sysfillrect (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/video/fbdev/core/sysfillrect.ko.xz)
+    adding module: sysimgblt (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/video/fbdev/core/sysimgblt.ko.xz)
+    adding module: hid-plantronics (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-plantronics.ko.xz)
+    adding module: hid-playstation (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-playstation.ko.xz)
+    adding module: hid-pl (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-pl.ko.xz)
+    adding module: hid-primax (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-primax.ko.xz)
+    adding module: hid-prodikeys (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-prodikeys.ko.xz)
+    adding module: snd (/lib/modules/5.12.9-1-MANJARO/kernel/sound/core/snd.ko.xz)
+    adding module: soundcore (/lib/modules/5.12.9-1-MANJARO/kernel/sound/soundcore.ko.xz)
+    adding module: snd-rawmidi (/lib/modules/5.12.9-1-MANJARO/kernel/sound/core/snd-rawmidi.ko.xz)
+    adding module: snd-seq-device (/lib/modules/5.12.9-1-MANJARO/kernel/sound/core/snd-seq-device.ko.xz)
+    adding module: hid-redragon (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-redragon.ko.xz)
+    adding module: hid-retrode (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-retrode.ko.xz)
+    adding module: hid-rmi (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-rmi.ko.xz)
+    adding module: rmi_core (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/rmi4/rmi_core.ko.xz)
+    adding module: serio (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/serio/serio.ko.xz)
+    adding module: hid-roccat-arvo (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-roccat-arvo.ko.xz)
+    adding module: hid-roccat (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-roccat.ko.xz)
+    adding module: hid-roccat-common (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-roccat-common.ko.xz)
+    adding module: hid-roccat-isku (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-roccat-isku.ko.xz)
+    adding module: hid-roccat-kone (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-roccat-kone.ko.xz)
+    adding module: hid-roccat-koneplus (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-roccat-koneplus.ko.xz)
+    adding module: hid-roccat-konepure (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-roccat-konepure.ko.xz)
+    adding module: hid-roccat-kovaplus (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-roccat-kovaplus.ko.xz)
+    adding module: hid-roccat-lua (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-roccat-lua.ko.xz)
+    adding module: hid-roccat-pyra (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-roccat-pyra.ko.xz)
+    adding module: hid-roccat-ryos (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-roccat-ryos.ko.xz)
+    adding module: hid-roccat-savu (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-roccat-savu.ko.xz)
+    adding module: hid-saitek (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-saitek.ko.xz)
+    adding module: hid-samsung (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-samsung.ko.xz)
+    adding module: hid-sensor-custom (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-sensor-custom.ko.xz)
+    adding module: hid-sensor-hub (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-sensor-hub.ko.xz)
+    adding module: hid-sjoy (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-sjoy.ko.xz)
+    adding module: hid-sony (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-sony.ko.xz)
+    adding module: hid-speedlink (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-speedlink.ko.xz)
+    adding module: hid-steam (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-steam.ko.xz)
+    adding module: hid-steelseries (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-steelseries.ko.xz)
+    adding module: hid-sunplus (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-sunplus.ko.xz)
+    adding module: hid-tivo (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-tivo.ko.xz)
+    adding module: hid-tmff (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-tmff.ko.xz)
+    adding module: hid-topseed (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-topseed.ko.xz)
+    adding module: hid-twinhan (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-twinhan.ko.xz)
+    adding module: hid-u2fzero (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-u2fzero.ko.xz)
+    adding module: rng-core (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/char/hw_random/rng-core.ko.xz)
+    adding module: hid-uclogic (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-uclogic.ko.xz)
+    adding module: hid-udraw-ps3 (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-udraw-ps3.ko.xz)
+    adding module: hid-viewsonic (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-viewsonic.ko.xz)
+    adding module: hid-vivaldi (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-vivaldi.ko.xz)
+    adding module: hid-waltop (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-waltop.ko.xz)
+    adding module: hid-wiimote (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-wiimote.ko.xz)
+    adding module: hid-xinmo (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-xinmo.ko.xz)
+    adding module: hid-zpff (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-zpff.ko.xz)
+    adding module: hid-zydacron (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/hid/hid-zydacron.ko.xz)
+    adding module: adc-keys (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/adc-keys.ko.xz)
+    adding module: industrialio (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/iio/industrialio.ko.xz)
+    adding module: adp5520-keys (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/adp5520-keys.ko.xz)
+    adding module: adp5588-keys (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/adp5588-keys.ko.xz)
+    adding module: adp5589-keys (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/adp5589-keys.ko.xz)
+    adding module: applespi (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/applespi.ko.xz)
+    adding module: crc16 (/lib/modules/5.12.9-1-MANJARO/kernel/lib/crc16.ko.xz)
+    adding module: atkbd (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/atkbd.ko.xz)
+    adding module: libps2 (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/serio/libps2.ko.xz)
+    adding module: cros_ec_keyb (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/cros_ec_keyb.ko.xz)
+    adding module: matrix-keymap (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/matrix-keymap.ko.xz)
+    adding module: dlink-dir685-touchkeys (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/dlink-dir685-touchkeys.ko.xz)
+    adding module: gpio_keys (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/gpio_keys.ko.xz)
+    adding module: gpio_keys_polled (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/gpio_keys_polled.ko.xz)
+    adding module: iqs62x-keys (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/iqs62x-keys.ko.xz)
+    adding module: iqs62x (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/mfd/iqs62x.ko.xz)
+    adding module: lkkbd (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/lkkbd.ko.xz)
+    adding module: lm8323 (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/lm8323.ko.xz)
+    adding module: lm8333 (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/lm8333.ko.xz)
+    adding module: matrix_keypad (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/matrix_keypad.ko.xz)
+    adding module: max7359_keypad (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/max7359_keypad.ko.xz)
+    adding module: mcs_touchkey (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/mcs_touchkey.ko.xz)
+    adding module: mpr121_touchkey (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/mpr121_touchkey.ko.xz)
+    adding module: mtk-pmic-keys (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/mtk-pmic-keys.ko.xz)
+    adding module: newtonkbd (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/newtonkbd.ko.xz)
+    adding module: opencores-kbd (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/opencores-kbd.ko.xz)
+    adding module: qt1050 (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/qt1050.ko.xz)
+    adding module: qt1070 (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/qt1070.ko.xz)
+    adding module: qt2160 (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/qt2160.ko.xz)
+    adding module: samsung-keypad (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/samsung-keypad.ko.xz)
+    adding module: stowaway (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/stowaway.ko.xz)
+    adding module: sunkbd (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/sunkbd.ko.xz)
+    adding module: tca6416-keypad (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/tca6416-keypad.ko.xz)
+    adding module: tca8418_keypad (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/tca8418_keypad.ko.xz)
+    adding module: tm2-touchkey (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/tm2-touchkey.ko.xz)
+    adding module: twl4030_keypad (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/twl4030_keypad.ko.xz)
+    adding module: xtkbd (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/keyboard/xtkbd.ko.xz)
+    adding module: altera_ps2 (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/serio/altera_ps2.ko.xz)
+    adding module: arc_ps2 (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/serio/arc_ps2.ko.xz)
+    adding module: ct82c710 (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/serio/ct82c710.ko.xz)
+    adding module: hyperv-keyboard (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/serio/hyperv-keyboard.ko.xz)
+    adding module: i8042 (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/serio/i8042.ko.xz)
+    adding module: parkbd (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/serio/parkbd.ko.xz)
+    adding module: parport (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/parport/parport.ko.xz)
+    adding module: pcips2 (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/serio/pcips2.ko.xz)
+    adding module: ps2-gpio (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/serio/ps2-gpio.ko.xz)
+    adding module: ps2mult (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/serio/ps2mult.ko.xz)
+    adding module: serio_raw (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/serio/serio_raw.ko.xz)
+    adding module: serport (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/serio/serport.ko.xz)
+    adding module: userio (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/input/serio/userio.ko.xz)
+  -> Running build hook: [/usr/lib/initcpio/install/udev]
+    adding file: /usr/lib/systemd/systemd-udevd
+    adding file: /usr/lib/systemd/libsystemd-shared-248.so
+    adding file: /usr/lib/libkmod.so.2
+    adding file: /usr/lib/libgcc_s.so.1
+    adding file: /usr/lib/libacl.so.1
+    adding file: /usr/lib/libcap.so.2
+    adding file: /usr/lib/libgcrypt.so.20
+    adding file: /usr/lib/libip4tc.so.2
+    adding file: /usr/lib/liblz4.so.1
+    adding file: /usr/lib/libp11-kit.so.0
+    adding file: /usr/lib/libpam.so.0
+    adding file: /usr/lib/libseccomp.so.2
+    adding file: /usr/lib/libgpg-error.so.0
+    adding file: /usr/lib/libffi.so.7
+    adding file: /usr/lib/libaudit.so.1
+    adding file: /usr/lib/libcap-ng.so.0
+    adding file: /usr/bin/udevadm
+    adding file: /usr/bin/systemd-tmpfiles
+    adding file: /usr/lib/udev/rules.d/50-udev-default.rules
+    adding file: /usr/lib/udev/rules.d/60-persistent-storage.rules
+    adding file: /usr/lib/udev/rules.d/64-btrfs.rules
+    adding file: /usr/lib/udev/rules.d/80-drivers.rules
+    adding file: /usr/lib/udev/ata_id
+    adding file: /usr/lib/udev/scsi_id
+    adding file: /hooks/udev
+  -> Running build hook: [/usr/lib/initcpio/install/autodetect]
+    caching 47 modules
+  -> Running build hook: [/usr/lib/initcpio/install/wifi]
+    adding module: iwlwifi (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/net/wireless/intel/iwlwifi/iwlwifi.ko.xz)
+    adding module: cfg80211 (/lib/modules/5.12.9-1-MANJARO/kernel/net/wireless/cfg80211.ko.xz)
+    adding file: /usr/lib/firmware/iwlwifi-100-5.ucode
+    adding file: /usr/lib/firmware/iwlwifi-1000-5.ucode
+    adding file: /usr/lib/firmware/iwlwifi-135-6.ucode
+    adding file: /usr/lib/firmware/iwlwifi-105-6.ucode
+    adding file: /usr/lib/firmware/iwlwifi-2030-6.ucode
+    adding file: /usr/lib/firmware/iwlwifi-2000-6.ucode
+    adding file: /usr/lib/firmware/iwlwifi-5150-2.ucode
+    adding file: /usr/lib/firmware/iwlwifi-5000-5.ucode
+    adding file: /usr/lib/firmware/iwlwifi-6000g2b-6.ucode
+    adding file: /usr/lib/firmware/iwlwifi-6000g2a-6.ucode
+    adding file: /usr/lib/firmware/iwlwifi-6050-5.ucode
+    adding file: /usr/lib/firmware/iwlwifi-7265D-29.ucode
+    adding file: /usr/lib/firmware/iwlwifi-7265-17.ucode
+    adding file: /usr/lib/firmware/iwlwifi-3168-29.ucode
+    adding file: /usr/lib/firmware/iwlwifi-3160-17.ucode
+    adding file: /usr/lib/firmware/iwlwifi-7260-17.ucode
+    adding file: /usr/lib/firmware/iwlwifi-8265-36.ucode
+    adding file: /usr/lib/firmware/iwlwifi-8000C-36.ucode
+    adding file: /usr/lib/firmware/iwlwifi-9260-th-b0-jf-b0-46.ucode
+    adding file: /usr/lib/firmware/iwlwifi-9000-pu-b0-jf-b0-46.ucode
+    adding file: /usr/lib/firmware/iwlwifi-ty-a0-gf-a0-62.ucode
+    adding file: /usr/lib/firmware/iwlwifi-cc-a0-62.ucode
+    adding file: /usr/lib/firmware/iwlwifi-QuZ-a0-jf-b0-62.ucode
+    adding file: /usr/lib/firmware/iwlwifi-QuZ-a0-hr-b0-62.ucode
+    adding file: /usr/lib/firmware/iwlwifi-Qu-b0-jf-b0-62.ucode
+    adding file: /usr/lib/firmware/iwlwifi-Qu-c0-hr-b0-62.ucode
+    adding file: /usr/lib/firmware/iwlwifi-Qu-b0-hr-b0-62.ucode
+    adding module: iwlmvm (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/net/wireless/intel/iwlwifi/mvm/iwlmvm.ko.xz)
+    adding module: mac80211 (/lib/modules/5.12.9-1-MANJARO/kernel/net/mac80211/mac80211.ko.xz)
+    adding module: libarc4 (/lib/modules/5.12.9-1-MANJARO/kernel/lib/crypto/libarc4.ko.xz)
+    adding module: ccm (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/ccm.ko.xz)
+    overwriting file: /usr/sbin/killall
+    adding file: /usr/sbin/wpa_supplicant
+    adding file: /usr/lib/libnl-3.so.200
+    adding file: /usr/lib/libnl-genl-3.so.200
+    adding file: /usr/lib/libnl-route-3.so.200
+    adding file: /usr/lib/libm.so.6
+    adding file: /usr/lib/libssl.so.1.1
+    adding file: /usr/lib/libdbus-1.so.3
+    adding file: /usr/lib/libsystemd.so.0
+    overwriting file: /usr/sbin/ip
+    adding file: /usr/lib/libelf.so.1
+    adding file: /usr/lib/libmnl.so.0
+    adding file: /hooks/wifi
+    adding file: /etc/wpa_supplicant/initcpio.conf
+  -> Running build hook: [/usr/lib/initcpio/install/modconf]
+    adding dir: /etc/modprobe.d
+    adding dir: /usr/lib/modprobe.d
+    adding file: /usr/lib/modprobe.d/bluetooth-usb.conf
+    adding file: /usr/lib/modprobe.d/nvdimm-security.conf
+    adding file: /usr/lib/modprobe.d/systemd.conf
+    adding file: /usr/lib/modprobe.d/uvesafb.conf
+    adding file: /usr/lib/modprobe.d/x-amdgpu.dc.conf
+    adding file: /usr/lib/modprobe.d/x-amdgpu.deep_color.conf
+    adding file: /usr/lib/modprobe.d/x-amdgpu.exp_hw_support.conf
+    adding file: /usr/lib/modprobe.d/x-amdgpu-radeon.cik_support.conf
+    adding file: /usr/lib/modprobe.d/x-amdgpu-radeon.si_support.conf
+  -> Running build hook: [/usr/lib/initcpio/install/block]
+    adding module: sr_mod (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/scsi/sr_mod.ko.xz)
+    adding module: cdrom (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/cdrom/cdrom.ko.xz)
+    adding module: usb-storage (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/usb/storage/usb-storage.ko.xz)
+    adding module: mmc_block (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/mmc/core/mmc_block.ko.xz)
+    adding module: firewire-sbp2 (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/firewire/firewire-sbp2.ko.xz)
+    adding module: firewire-core (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/firewire/firewire-core.ko.xz)
+    adding module: crc-itu-t (/lib/modules/5.12.9-1-MANJARO/kernel/lib/crc-itu-t.ko.xz)
+    adding module: virtio_blk (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/block/virtio_blk.ko.xz)
+  -> Running build hook: [/usr/lib/initcpio/install/keymap]
+    adding file: /hooks/keymap
+  -> Running build hook: [/usr/lib/initcpio/install/encrypt]
+    adding module: dm-crypt (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/md/dm-crypt.ko.xz)
+    adding module: dm-mod (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/md/dm-mod.ko.xz)
+    adding module: encrypted-keys (/lib/modules/5.12.9-1-MANJARO/kernel/security/keys/encrypted-keys/encrypted-keys.ko.xz)
+    adding module: trusted (/lib/modules/5.12.9-1-MANJARO/kernel/security/keys/trusted-keys/trusted.ko.xz)
+    adding module: tpm (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/char/tpm/tpm.ko.xz)
+    adding module: dm-integrity (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/md/dm-integrity.ko.xz)
+    adding module: dm-bufio (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/md/dm-bufio.ko.xz)
+    adding module: async_xor (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/async_tx/async_xor.ko.xz)
+    adding module: xor (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/xor.ko.xz)
+    adding module: async_tx (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/async_tx/async_tx.ko.xz)
+    adding module: aegis128-aesni (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/aegis128-aesni.ko.xz)
+    adding module: crypto_simd (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/crypto_simd.ko.xz)
+    adding module: cryptd (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/cryptd.ko.xz)
+    adding module: aesni-intel (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/aesni-intel.ko.xz)
+    adding module: blake2s-x86_64 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/blake2s-x86_64.ko.xz)
+    adding module: libblake2s-generic (/lib/modules/5.12.9-1-MANJARO/kernel/lib/crypto/libblake2s-generic.ko.xz)
+    adding module: blowfish-x86_64 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/blowfish-x86_64.ko.xz)
+    adding module: blowfish_common (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/blowfish_common.ko.xz)
+    adding module: camellia-aesni-avx2 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/camellia-aesni-avx2.ko.xz)
+    adding module: camellia-x86_64 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/camellia-x86_64.ko.xz)
+    adding module: camellia-aesni-avx-x86_64 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/camellia-aesni-avx-x86_64.ko.xz)
+    adding module: cast5-avx-x86_64 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/cast5-avx-x86_64.ko.xz)
+    adding module: cast_common (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/cast_common.ko.xz)
+    adding module: cast5_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/cast5_generic.ko.xz)
+    adding module: cast6-avx-x86_64 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/cast6-avx-x86_64.ko.xz)
+    adding module: cast6_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/cast6_generic.ko.xz)
+    adding module: chacha-x86_64 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/chacha-x86_64.ko.xz)
+    adding module: libchacha (/lib/modules/5.12.9-1-MANJARO/kernel/lib/crypto/libchacha.ko.xz)
+    adding module: crc32c-intel (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/crc32c-intel.ko.xz)
+    adding module: crc32-pclmul (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/crc32-pclmul.ko.xz)
+    adding module: crct10dif-pclmul (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/crct10dif-pclmul.ko.xz)
+    adding module: curve25519-x86_64 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/curve25519-x86_64.ko.xz)
+    adding module: libcurve25519-generic (/lib/modules/5.12.9-1-MANJARO/kernel/lib/crypto/libcurve25519-generic.ko.xz)
+    adding module: des3_ede-x86_64 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/des3_ede-x86_64.ko.xz)
+    adding module: libdes (/lib/modules/5.12.9-1-MANJARO/kernel/lib/crypto/libdes.ko.xz)
+    adding module: ghash-clmulni-intel (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/ghash-clmulni-intel.ko.xz)
+    adding module: nhpoly1305-avx2 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/nhpoly1305-avx2.ko.xz)
+    adding module: nhpoly1305 (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/nhpoly1305.ko.xz)
+    adding module: libpoly1305 (/lib/modules/5.12.9-1-MANJARO/kernel/lib/crypto/libpoly1305.ko.xz)
+    adding module: nhpoly1305-sse2 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/nhpoly1305-sse2.ko.xz)
+    adding module: poly1305-x86_64 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/poly1305-x86_64.ko.xz)
+    adding module: serpent-avx2 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/serpent-avx2.ko.xz)
+    adding module: serpent-avx-x86_64 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/serpent-avx-x86_64.ko.xz)
+    adding module: serpent_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/serpent_generic.ko.xz)
+    adding module: serpent-sse2-x86_64 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/serpent-sse2-x86_64.ko.xz)
+    adding module: sha1-ssse3 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/sha1-ssse3.ko.xz)
+    adding module: sha256-ssse3 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/sha256-ssse3.ko.xz)
+    adding module: sha512-ssse3 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/sha512-ssse3.ko.xz)
+    adding module: twofish-avx-x86_64 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/twofish-avx-x86_64.ko.xz)
+    adding module: twofish-x86_64 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/twofish-x86_64.ko.xz)
+    adding module: twofish_common (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/twofish_common.ko.xz)
+    adding module: twofish-x86_64-3way (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/twofish-x86_64-3way.ko.xz)
+    adding module: asym_tpm (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/asymmetric_keys/asym_tpm.ko.xz)
+    adding module: pkcs8_key_parser (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/asymmetric_keys/pkcs8_key_parser.ko.xz)
+    adding module: tpm_key_parser (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/asymmetric_keys/tpm_key_parser.ko.xz)
+    adding module: async_memcpy (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/async_tx/async_memcpy.ko.xz)
+    adding module: async_pq (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/async_tx/async_pq.ko.xz)
+    adding module: raid6_pq (/lib/modules/5.12.9-1-MANJARO/kernel/lib/raid6/raid6_pq.ko.xz)
+    adding module: async_raid6_recov (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/async_tx/async_raid6_recov.ko.xz)
+    adding module: raid6test (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/async_tx/raid6test.ko.xz)
+    adding module: 842 (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/842.ko.xz)
+    adding module: 842_compress (/lib/modules/5.12.9-1-MANJARO/kernel/lib/842/842_compress.ko.xz)
+    adding module: 842_decompress (/lib/modules/5.12.9-1-MANJARO/kernel/lib/842/842_decompress.ko.xz)
+    adding module: adiantum (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/adiantum.ko.xz)
+    adding module: aegis128 (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/aegis128.ko.xz)
+    adding module: aes_ti (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/aes_ti.ko.xz)
+    adding module: af_alg (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/af_alg.ko.xz)
+    adding module: algif_aead (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/algif_aead.ko.xz)
+    adding module: algif_hash (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/algif_hash.ko.xz)
+    adding module: algif_rng (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/algif_rng.ko.xz)
+    adding module: algif_skcipher (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/algif_skcipher.ko.xz)
+    adding module: ansi_cprng (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/ansi_cprng.ko.xz)
+    adding module: authencesn (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/authencesn.ko.xz)
+    adding module: authenc (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/authenc.ko.xz)
+    adding module: blake2b_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/blake2b_generic.ko.xz)
+    adding module: blake2s_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/blake2s_generic.ko.xz)
+    adding module: blowfish_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/blowfish_generic.ko.xz)
+    adding module: camellia_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/camellia_generic.ko.xz)
+    adding module: cbc (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/cbc.ko.xz)
+    adding module: cfb (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/cfb.ko.xz)
+    adding module: chacha20poly1305 (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/chacha20poly1305.ko.xz)
+    adding module: chacha_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/chacha_generic.ko.xz)
+    adding module: cmac (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/cmac.ko.xz)
+    adding module: crc32c_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/crc32c_generic.ko.xz)
+    adding module: crc32_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/crc32_generic.ko.xz)
+    adding module: crypto_engine (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/crypto_engine.ko.xz)
+    adding module: crypto_user (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/crypto_user.ko.xz)
+    adding module: cts (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/cts.ko.xz)
+    adding module: curve25519-generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/curve25519-generic.ko.xz)
+    adding module: deflate (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/deflate.ko.xz)
+    adding module: des_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/des_generic.ko.xz)
+    adding module: drbg (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/drbg.ko.xz)
+    adding module: ecb (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/ecb.ko.xz)
+    adding module: ecc (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/ecc.ko.xz)
+    adding module: ecdh_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/ecdh_generic.ko.xz)
+    adding module: echainiv (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/echainiv.ko.xz)
+    adding module: ecrdsa_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/ecrdsa_generic.ko.xz)
+    adding module: essiv (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/essiv.ko.xz)
+    adding module: fcrypt (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/fcrypt.ko.xz)
+    adding module: gcm (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/gcm.ko.xz)
+    adding module: gf128mul (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/gf128mul.ko.xz)
+    adding module: ghash-generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/ghash-generic.ko.xz)
+    adding module: keywrap (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/keywrap.ko.xz)
+    adding module: lrw (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/lrw.ko.xz)
+    adding module: lz4hc (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/lz4hc.ko.xz)
+    adding module: lzo (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/lzo.ko.xz)
+    adding module: lzo-rle (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/lzo-rle.ko.xz)
+    adding module: md4 (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/md4.ko.xz)
+    adding module: michael_mic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/michael_mic.ko.xz)
+    adding module: ofb (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/ofb.ko.xz)
+    adding module: pcbc (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/pcbc.ko.xz)
+    adding module: pcrypt (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/pcrypt.ko.xz)
+    adding module: poly1305_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/poly1305_generic.ko.xz)
+    adding module: rmd160 (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/rmd160.ko.xz)
+    adding module: seqiv (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/seqiv.ko.xz)
+    adding module: sha3_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/sha3_generic.ko.xz)
+    adding module: sm2_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/sm2_generic.ko.xz)
+    adding module: sm3_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/sm3_generic.ko.xz)
+    adding module: sm4_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/sm4_generic.ko.xz)
+    adding module: streebog_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/streebog_generic.ko.xz)
+    adding module: tcrypt (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/tcrypt.ko.xz)
+    adding module: twofish_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/twofish_generic.ko.xz)
+    adding module: vmac (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/vmac.ko.xz)
+    adding module: wp512 (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/wp512.ko.xz)
+    adding module: xcbc (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/xcbc.ko.xz)
+    adding module: xts (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/xts.ko.xz)
+    adding module: xxhash_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/xxhash_generic.ko.xz)
+    adding module: amlogic-gxl-crypto (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/crypto/amlogic/amlogic-gxl-crypto.ko.xz)
+    adding module: n5pf (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/crypto/cavium/nitrox/n5pf.ko.xz)
+    adding file: /usr/lib/firmware/cavium/cnn55xx_se.fw
+    adding module: ccp-crypto (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/crypto/ccp/ccp-crypto.ko.xz)
+    adding module: ccp (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/crypto/ccp/ccp.ko.xz)
+    adding module: chcr (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/crypto/chelsio/chcr.ko.xz)
+    adding module: cxgb4 (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/net/ethernet/chelsio/cxgb4/cxgb4.ko.xz)
+    adding module: tls (/lib/modules/5.12.9-1-MANJARO/kernel/net/tls/tls.ko.xz)
+    adding file: /usr/lib/firmware/cxgb4/t6fw.bin
+    adding file: /usr/lib/firmware/cxgb4/t5fw.bin
+    adding file: /usr/lib/firmware/cxgb4/t4fw.bin
+    adding module: crypto_safexcel (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/crypto/inside-secure/crypto_safexcel.ko.xz)
+    adding module: qat_4xxx (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/crypto/qat/qat_4xxx/qat_4xxx.ko.xz)
+    adding module: intel_qat (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/crypto/qat/qat_common/intel_qat.ko.xz)
+    adding module: qat_c3xxx (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/crypto/qat/qat_c3xxx/qat_c3xxx.ko.xz)
+    adding file: /usr/lib/firmware/qat_c3xxx_mmp.bin
+    adding file: /usr/lib/firmware/qat_c3xxx.bin
+    adding module: qat_c3xxxvf (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/crypto/qat/qat_c3xxxvf/qat_c3xxxvf.ko.xz)
+    adding module: qat_c62x (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/crypto/qat/qat_c62x/qat_c62x.ko.xz)
+    adding file: /usr/lib/firmware/qat_c62x_mmp.bin
+    adding file: /usr/lib/firmware/qat_c62x.bin
+    adding module: qat_c62xvf (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/crypto/qat/qat_c62xvf/qat_c62xvf.ko.xz)
+    adding module: qat_dh895xcc (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/crypto/qat/qat_dh895xcc/qat_dh895xcc.ko.xz)
+    adding file: /usr/lib/firmware/qat_895xcc_mmp.bin
+    adding file: /usr/lib/firmware/qat_895xcc.bin
+    adding module: qat_dh895xccvf (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/crypto/qat/qat_dh895xccvf/qat_dh895xccvf.ko.xz)
+    adding module: virtio_crypto (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/crypto/virtio/virtio_crypto.ko.xz)
+    adding module: atmel-ecc (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/crypto/atmel-ecc.ko.xz)
+    adding module: atmel-i2c (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/crypto/atmel-i2c.ko.xz)
+    adding module: atmel-sha204a (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/crypto/atmel-sha204a.ko.xz)
+    adding module: padlock-aes (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/crypto/padlock-aes.ko.xz)
+    adding module: padlock-sha (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/crypto/padlock-sha.ko.xz)
+    adding module: libblake2s (/lib/modules/5.12.9-1-MANJARO/kernel/lib/crypto/libblake2s.ko.xz)
+    adding module: libchacha20poly1305 (/lib/modules/5.12.9-1-MANJARO/kernel/lib/crypto/libchacha20poly1305.ko.xz)
+    adding module: libcurve25519 (/lib/modules/5.12.9-1-MANJARO/kernel/lib/crypto/libcurve25519.ko.xz)
+    adding file: /usr/sbin/cryptsetup
+    adding file: /usr/lib/libcryptsetup.so.12
+    adding file: /usr/lib/libpopt.so.0
+    adding file: /usr/lib/libuuid.so.1
+    adding file: /usr/lib/libdevmapper.so.1.02
+    adding file: /usr/lib/libargon2.so.1
+    adding file: /usr/lib/libjson-c.so.5
+    adding file: /usr/lib/libudev.so.1
+    adding file: /usr/sbin/dmsetup
+    adding file: /usr/lib/udev/rules.d/10-dm.rules
+    adding file: /usr/lib/udev/rules.d/13-dm-disk.rules
+    adding file: /usr/lib/udev/rules.d/95-dm-notify.rules
+    adding file: /usr/lib/udev/rules.d/11-dm-initramfs.rules
+    overwriting file: /usr/lib/libgcc_s.so.1
+    adding file: /hooks/encrypt
+  -> Running build hook: [/usr/lib/initcpio/install/btrfs]
+    adding module: btrfs (/lib/modules/5.12.9-1-MANJARO/kernel/fs/btrfs/btrfs.ko.xz)
+    adding module: blake2b_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/blake2b_generic.ko.xz)
+    adding module: sha256-ssse3 (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/sha256-ssse3.ko.xz)
+    adding module: xxhash_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/xxhash_generic.ko.xz)
+    adding module: crc32c-intel (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/crc32c-intel.ko.xz)
+    adding module: crc32c_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/crc32c_generic.ko.xz)
+    adding module: libcrc32c (/lib/modules/5.12.9-1-MANJARO/kernel/lib/libcrc32c.ko.xz)
+    adding module: crc32c-intel (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/crc32c-intel.ko.xz)
+    adding module: crc32c_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/crc32c_generic.ko.xz)
+    adding file: /usr/sbin/btrfs
+    adding file: /usr/lib/liblzo2.so.2
+    adding file: /usr/sbin/btrfsck
+    adding file: /hooks/btrfs
+  -> Running build hook: [/usr/lib/initcpio/install/netconf]
+    adding module: igb (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/net/ethernet/intel/igb/igb.ko.xz)
+    adding module: dca (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/dca/dca.ko.xz)
+    adding module: i2c-algo-bit (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/i2c/algos/i2c-algo-bit.ko.xz)
+    adding module: r8169 (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/net/ethernet/realtek/r8169.ko.xz)
+    adding module: realtek (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/net/phy/realtek.ko.xz)
+    adding module: libphy (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/net/phy/libphy.ko.xz)
+    adding module: mdio_devres (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/net/phy/mdio_devres.ko.xz)
+    adding file: /usr/lib/firmware/rtl_nic/rtl8125b-2.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8125a-3.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8107e-2.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8107e-1.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8168fp-3.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8168h-2.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8168h-1.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8168g-3.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8168g-2.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8106e-2.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8106e-1.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8411-2.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8411-1.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8402-1.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8168f-2.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8168f-1.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8105e-1.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8168e-3.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8168e-2.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8168e-1.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8168d-2.fw
+    adding file: /usr/lib/firmware/rtl_nic/rtl8168d-1.fw
+    adding module: fjes (/lib/modules/5.12.9-1-MANJARO/kernel/drivers/net/fjes/fjes.ko.xz)
+    overwriting file: /sbin/ip
+    adding file: /sbin/ipconfig
+    adding file: /hooks/netconf
+  -> Running build hook: [/usr/lib/initcpio/install/filesystems]
+  -> Running build hook: [/usr/lib/initcpio/install/systemd]
+    overwriting file: /usr/bin/modprobe
+    overwriting file: /usr/bin/mount
+    adding file: /usr/bin/sulogin
+    overwriting file: /usr/bin/umount
+    overwriting file: /init
+    adding file: /usr/bin/journalctl
+    overwriting file: /usr/bin/systemd-tmpfiles
+    adding file: /usr/lib/systemd/systemd-hibernate-resume
+    adding file: /usr/lib/systemd/systemd-shutdown
+    adding file: /usr/lib/systemd/systemd-sulogin-shell
+    adding file: /usr/lib/systemd/system-generators/systemd-fstab-generator
+    adding file: /usr/lib/systemd/system-generators/systemd-gpt-auto-generator
+    adding file: /usr/lib/systemd/system-generators/systemd-hibernate-resume-generator
+    overwriting file: /usr/lib/udev/rules.d/50-udev-default.rules
+    overwriting file: /usr/lib/udev/rules.d/60-persistent-storage.rules
+    overwriting file: /usr/lib/udev/ata_id
+    overwriting file: /usr/lib/udev/ata_id
+    overwriting file: /usr/lib/udev/ata_id
+    overwriting file: /usr/lib/udev/scsi_id
+    overwriting file: /usr/lib/udev/scsi_id
+    overwriting file: /usr/lib/udev/rules.d/64-btrfs.rules
+    overwriting file: /usr/bin/udevadm
+    overwriting file: /usr/lib/udev/rules.d/80-drivers.rules
+    adding file: /usr/lib/udev/rules.d/99-systemd.rules
+    adding file: /usr/lib/systemd/systemd-sysctl
+    adding file: /usr/lib/systemd/system/initrd-cleanup.service
+    adding file: /usr/lib/systemd/system/emergency.target
+    adding file: /usr/lib/systemd/system/emergency.service
+    adding file: /usr/sbin/systemctl
+    adding file: /usr/lib/systemd/system/initrd-fs.target
+    overwriting file: /usr/lib/systemd/system/emergency.target
+    overwriting file: /usr/lib/systemd/system/emergency.service
+    adding file: /usr/lib/systemd/system/initrd-parse-etc.service
+    adding file: /usr/lib/systemd/system/initrd-root-fs.target
+    overwriting file: /usr/lib/systemd/system/emergency.target
+    overwriting file: /usr/lib/systemd/system/emergency.service
+    overwriting file: /usr/lib/systemd/system/emergency.target
+    overwriting file: /usr/lib/systemd/system/emergency.service
+    overwriting file: /usr/sbin/systemctl
+    overwriting file: /usr/lib/systemd/system/initrd-root-fs.target
+    overwriting file: /usr/lib/systemd/system/emergency.target
+    overwriting file: /usr/lib/systemd/system/emergency.service
+    adding file: /usr/lib/systemd/system/initrd-root-device.target
+    overwriting file: /usr/lib/systemd/system/emergency.target
+    overwriting file: /usr/lib/systemd/system/emergency.service
+    adding file: /usr/lib/systemd/system/initrd-switch-root.service
+    overwriting file: /usr/lib/systemd/system/emergency.target
+    overwriting file: /usr/lib/systemd/system/emergency.service
+    overwriting file: /usr/sbin/systemctl
+    adding file: /usr/lib/systemd/system/initrd-switch-root.target
+    adding file: /usr/lib/systemd/system/initrd-udevadm-cleanup-db.service
+    adding file: /usr/lib/systemd/system/initrd.target
+    overwriting file: /usr/lib/systemd/system/emergency.target
+    overwriting file: /usr/lib/systemd/system/emergency.service
+    adding file: /usr/lib/systemd/system/basic.target
+    adding file: /usr/lib/systemd/system/sysinit.target
+    adding file: /usr/lib/systemd/system/kmod-static-nodes.service
+    overwriting file: /usr/bin/kmod
+    adding dir: /usr/lib/systemd/system/sysinit.target.wants
+    adding symlink: /usr/lib/systemd/system/sysinit.target.wants/kmod-static-nodes.service -> /usr/lib/systemd/system/kmod-static-nodes.service
+    overwriting symlink /lib/systemd/system/sysinit.target.wants/kmod-static-nodes.service -> /usr/lib/systemd/system/kmod-static-nodes.service
+    adding file: /usr/lib/systemd/system/local-fs.target
+    overwriting file: /usr/lib/systemd/system/emergency.target
+    overwriting file: /usr/lib/systemd/system/emergency.service
+    adding file: /usr/lib/systemd/system/local-fs-pre.target
+    adding file: /usr/lib/systemd/system/paths.target
+    adding file: /usr/lib/systemd/system/reboot.target
+    adding file: /usr/lib/systemd/system/systemd-reboot.service
+    adding file: /usr/lib/systemd/system/shutdown.target
+    adding file: /usr/lib/systemd/system/umount.target
+    adding file: /usr/lib/systemd/system/final.target
+    adding file: /usr/lib/systemd/system/slices.target
+    adding file: /usr/lib/systemd/system/sockets.target
+    adding file: /usr/lib/systemd/system/swap.target
+    adding file: /usr/lib/systemd/system/systemd-fsck@.service
+    adding file: /usr/lib/systemd/systemd-fsck
+    adding file: /usr/lib/systemd/system/systemd-hibernate-resume@.service
+    overwriting file: /usr/lib/systemd/systemd-hibernate-resume
+    adding file: /usr/lib/systemd/system/systemd-journald.service
+    adding file: /usr/lib/systemd/system/systemd-journald.socket
+    adding dir: /usr/lib/systemd/system/sockets.target.wants
+    adding symlink: /usr/lib/systemd/system/sockets.target.wants/systemd-journald.socket -> /usr/lib/systemd/system/systemd-journald.socket
+    overwriting symlink /lib/systemd/system/sockets.target.wants/systemd-journald.socket -> /usr/lib/systemd/system/systemd-journald.socket
+    adding file: /usr/lib/systemd/systemd-journald
+    adding symlink: /usr/lib/systemd/system/sysinit.target.wants/systemd-journald.service -> /usr/lib/systemd/system/systemd-journald.service
+    overwriting symlink /lib/systemd/system/sysinit.target.wants/systemd-journald.service -> /usr/lib/systemd/system/systemd-journald.service
+    adding file: /usr/lib/systemd/system/systemd-journald-audit.socket
+    adding symlink: /usr/lib/systemd/system/sockets.target.wants/systemd-journald-audit.socket -> /usr/lib/systemd/system/systemd-journald-audit.socket
+    overwriting symlink /lib/systemd/system/sockets.target.wants/systemd-journald-audit.socket -> /usr/lib/systemd/system/systemd-journald-audit.socket
+    adding file: /usr/lib/systemd/system/systemd-journald-dev-log.socket
+    adding symlink: /usr/lib/systemd/system/sockets.target.wants/systemd-journald-dev-log.socket -> /usr/lib/systemd/system/systemd-journald-dev-log.socket
+    overwriting symlink /lib/systemd/system/sockets.target.wants/systemd-journald-dev-log.socket -> /usr/lib/systemd/system/systemd-journald-dev-log.socket
+    adding file: /usr/lib/systemd/system/systemd-modules-load.service
+    adding file: /usr/lib/systemd/systemd-modules-load
+    adding symlink: /usr/lib/systemd/system/sysinit.target.wants/systemd-modules-load.service -> /usr/lib/systemd/system/systemd-modules-load.service
+    overwriting symlink /lib/systemd/system/sysinit.target.wants/systemd-modules-load.service -> /usr/lib/systemd/system/systemd-modules-load.service
+    adding file: /usr/lib/systemd/system/systemd-tmpfiles-setup-dev.service
+    overwriting file: /usr/sbin/systemd-tmpfiles
+    adding symlink: /usr/lib/systemd/system/sysinit.target.wants/systemd-tmpfiles-setup-dev.service -> /usr/lib/systemd/system/systemd-tmpfiles-setup-dev.service
+    overwriting symlink /lib/systemd/system/sysinit.target.wants/systemd-tmpfiles-setup-dev.service -> /usr/lib/systemd/system/systemd-tmpfiles-setup-dev.service
+    adding file: /usr/lib/systemd/system/systemd-udev-trigger.service
+    adding symlink: /usr/lib/systemd/system/sysinit.target.wants/systemd-udev-trigger.service -> /usr/lib/systemd/system/systemd-udev-trigger.service
+    overwriting symlink /lib/systemd/system/sysinit.target.wants/systemd-udev-trigger.service -> /usr/lib/systemd/system/systemd-udev-trigger.service
+    adding file: /usr/lib/systemd/system/systemd-udevd-control.socket
+    adding symlink: /usr/lib/systemd/system/sockets.target.wants/systemd-udevd-control.socket -> /usr/lib/systemd/system/systemd-udevd-control.socket
+    overwriting symlink /lib/systemd/system/sockets.target.wants/systemd-udevd-control.socket -> /usr/lib/systemd/system/systemd-udevd-control.socket
+    adding file: /usr/lib/systemd/system/systemd-udevd-kernel.socket
+    adding symlink: /usr/lib/systemd/system/sockets.target.wants/systemd-udevd-kernel.socket -> /usr/lib/systemd/system/systemd-udevd-kernel.socket
+    overwriting symlink /lib/systemd/system/sockets.target.wants/systemd-udevd-kernel.socket -> /usr/lib/systemd/system/systemd-udevd-kernel.socket
+    adding file: /usr/lib/systemd/system/systemd-udevd.service
+    overwriting file: /usr/lib/systemd/systemd-udevd
+    overwriting file: /usr/sbin/udevadm
+    adding symlink: /usr/lib/systemd/system/sysinit.target.wants/systemd-udevd.service -> /usr/lib/systemd/system/systemd-udevd.service
+    overwriting symlink /lib/systemd/system/sysinit.target.wants/systemd-udevd.service -> /usr/lib/systemd/system/systemd-udevd.service
+    adding file: /usr/lib/systemd/system/timers.target
+    adding file: /usr/lib/systemd/system/rescue.target
+    overwriting file: /usr/lib/systemd/system/sysinit.target
+    adding file: /usr/lib/systemd/system/rescue.service
+    overwriting file: /usr/lib/systemd/system/emergency.target
+    overwriting file: /usr/lib/systemd/system/emergency.service
+    adding symlink: /usr/lib/systemd/system/default.target -> initrd.target
+    adding symlink: /usr/lib/systemd/system/ctrl-alt-del.target -> reboot.target
+    adding file: /usr/lib/libnss_files-2.33.so
+    adding dir: /etc/modules-load.d
+    adding module: vfat (/lib/modules/5.12.9-1-MANJARO/kernel/fs/fat/vfat.ko.xz)
+    adding module: fat (/lib/modules/5.12.9-1-MANJARO/kernel/fs/fat/fat.ko.xz)
+    adding module: nls_iso8859-1 (/lib/modules/5.12.9-1-MANJARO/kernel/fs/nls/nls_iso8859-1.ko.xz)
+    adding module: crc32c-intel (/lib/modules/5.12.9-1-MANJARO/kernel/arch/x86/crypto/crc32c-intel.ko.xz)
+    adding module: crc32c_generic (/lib/modules/5.12.9-1-MANJARO/kernel/crypto/crc32c_generic.ko.xz)
+==> Generating module dependencies
+==> Dry run complete, use -g IMAGE to generate a real image

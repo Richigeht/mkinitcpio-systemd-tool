@@ -9,6 +9,7 @@
 
 # use kernel interface names
 Name=eth*
+Name=wlan*
 
 # TODO use predictable network interface names
 #Name=en*
